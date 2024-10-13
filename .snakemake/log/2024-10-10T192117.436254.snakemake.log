@@ -1,0 +1,3 @@
+NameError in file /home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk, line 5:
+name 'input_order_df' is not defined
+  File "/home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk", line 5, in <module>

@@ -1,0 +1,2 @@
+SyntaxError in file /home/bec51310.iitr/workplace/project/quick_bed_sort/quick_bed_sort.smk, line 12:
+Command must be given as string after the shell keyword. (quick_bed_sort.smk, line 12)

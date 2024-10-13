@@ -1,0 +1,8 @@
+Building DAG of jobs...
+MissingInputException in rule combine_bed_by_chromosome in file /home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk, line 5:
+Missing input files for rule combine_bed_by_chromosome:
+    output: combined/chr11.bed.gz
+    wildcards: chromosome=chr11
+    affected files:
+        data/shuf.a.bed.gz
+        data/shuf.b.bed.gz

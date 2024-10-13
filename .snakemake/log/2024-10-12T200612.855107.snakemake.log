@@ -1,0 +1,48 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+combine        1              1              1
+sort          24              1              1
+split         24              1              1
+total         49              1              1
+
+Select jobs to execute...
+
+[Sat Oct 12 20:06:18 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr16.bed.gz
+    jobid: 32
+    reason: Missing output files: split_individual/chr16.bed.gz; Code has changed since last execution
+    wildcards: chr=chr16
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:06:24 2024]
+Finished job 32.
+1 of 49 steps (2%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:06:24 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr8.bed.gz
+    jobid: 16
+    reason: Missing output files: split_individual/chr8.bed.gz; Code has changed since last execution
+    wildcards: chr=chr8
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+[Sat Oct 12 20:06:25 2024]
+Error in rule split:
+    jobid: 16
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr8.bed.gz
+    shell:
+        (zcat shuf.a.bed.gz | awk '$1=="chr8"'; zcat shuf.b.bed.gz | awk '$1=="chr8"') | gzip > split_individual/chr8.bed.gz
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2024-10-12T200612.855107.snakemake.log

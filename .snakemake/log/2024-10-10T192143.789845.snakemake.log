@@ -1,0 +1,5 @@
+KeyError in file /home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk, line 5:
+'chromosome'
+  File "/home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk", line 5, in <module>
+  File "/home/bec51310.iitr/miniforge3/envs/quick_bed_sort/lib/python3.12/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+  File "/home/bec51310.iitr/miniforge3/envs/quick_bed_sort/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc

@@ -1,0 +1,8 @@
+FileNotFoundError in file /home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk, line 5:
+[Errno 2] No such file or directory: 'input.tsv'
+  File "/home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk", line 5, in <module>
+  File "/home/bec51310.iitr/miniforge3/envs/quick_bed_sort/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+  File "/home/bec51310.iitr/miniforge3/envs/quick_bed_sort/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+  File "/home/bec51310.iitr/miniforge3/envs/quick_bed_sort/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+  File "/home/bec51310.iitr/miniforge3/envs/quick_bed_sort/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+  File "/home/bec51310.iitr/miniforge3/envs/quick_bed_sort/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle

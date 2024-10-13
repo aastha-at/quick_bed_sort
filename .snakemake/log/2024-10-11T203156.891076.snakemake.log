@@ -1,0 +1,698 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+combine        1              1              1
+sort          24              1              1
+split         24              1              1
+total         49              1              1
+
+Select jobs to execute...
+
+[Fri Oct 11 20:31:58 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr8.bed.gz
+    jobid: 16
+    reason: Code has changed since last execution
+    wildcards: chr=chr8
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:04 2024]
+Finished job 16.
+1 of 49 steps (2%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:04 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr10.bed.gz
+    jobid: 20
+    reason: Code has changed since last execution
+    wildcards: chr=chr10
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:10 2024]
+Finished job 20.
+2 of 49 steps (4%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:10 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr2.bed.gz
+    jobid: 4
+    reason: Code has changed since last execution
+    wildcards: chr=chr2
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:15 2024]
+Finished job 4.
+3 of 49 steps (6%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:15 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr6.bed.gz
+    jobid: 12
+    reason: Code has changed since last execution
+    wildcards: chr=chr6
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:21 2024]
+Finished job 12.
+4 of 49 steps (8%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:21 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr19.bed.gz
+    jobid: 38
+    reason: Code has changed since last execution
+    wildcards: chr=chr19
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:26 2024]
+Finished job 38.
+5 of 49 steps (10%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:26 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr3.bed.gz
+    jobid: 6
+    reason: Code has changed since last execution
+    wildcards: chr=chr3
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:31 2024]
+Finished job 6.
+6 of 49 steps (12%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:32 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr1.bed.gz
+    jobid: 2
+    reason: Code has changed since last execution
+    wildcards: chr=chr1
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:38 2024]
+Finished job 2.
+7 of 49 steps (14%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:38 2024]
+rule sort:
+    input: split_individual/chr1.bed.gz
+    output: sort_individual/chr1.bed.gz
+    jobid: 1
+    reason: Input files updated by another job: split_individual/chr1.bed.gz
+    wildcards: chr=chr1
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:47 2024]
+Finished job 1.
+8 of 49 steps (16%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:47 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr16.bed.gz
+    jobid: 32
+    reason: Code has changed since last execution
+    wildcards: chr=chr16
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:52 2024]
+Finished job 32.
+9 of 49 steps (18%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:52 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr4.bed.gz
+    jobid: 8
+    reason: Code has changed since last execution
+    wildcards: chr=chr4
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:32:58 2024]
+Finished job 8.
+10 of 49 steps (20%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:32:58 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr20.bed.gz
+    jobid: 40
+    reason: Code has changed since last execution
+    wildcards: chr=chr20
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:04 2024]
+Finished job 40.
+11 of 49 steps (22%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:04 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr15.bed.gz
+    jobid: 30
+    reason: Code has changed since last execution
+    wildcards: chr=chr15
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:09 2024]
+Finished job 30.
+12 of 49 steps (24%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:09 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr7.bed.gz
+    jobid: 14
+    reason: Code has changed since last execution
+    wildcards: chr=chr7
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:14 2024]
+Finished job 14.
+13 of 49 steps (27%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:14 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr11.bed.gz
+    jobid: 22
+    reason: Code has changed since last execution
+    wildcards: chr=chr11
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:20 2024]
+Finished job 22.
+14 of 49 steps (29%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:20 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chrX.bed.gz
+    jobid: 46
+    reason: Code has changed since last execution
+    wildcards: chr=chrX
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:26 2024]
+Finished job 46.
+15 of 49 steps (31%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:26 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chrY.bed.gz
+    jobid: 48
+    reason: Code has changed since last execution
+    wildcards: chr=chrY
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:31 2024]
+Finished job 48.
+16 of 49 steps (33%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:31 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr14.bed.gz
+    jobid: 28
+    reason: Code has changed since last execution
+    wildcards: chr=chr14
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:36 2024]
+Finished job 28.
+17 of 49 steps (35%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:36 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr18.bed.gz
+    jobid: 36
+    reason: Code has changed since last execution
+    wildcards: chr=chr18
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:42 2024]
+Finished job 36.
+18 of 49 steps (37%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:42 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr22.bed.gz
+    jobid: 44
+    reason: Code has changed since last execution
+    wildcards: chr=chr22
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:47 2024]
+Finished job 44.
+19 of 49 steps (39%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:47 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr17.bed.gz
+    jobid: 34
+    reason: Code has changed since last execution
+    wildcards: chr=chr17
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:51 2024]
+Finished job 34.
+20 of 49 steps (41%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:51 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr9.bed.gz
+    jobid: 18
+    reason: Code has changed since last execution
+    wildcards: chr=chr9
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:57 2024]
+Finished job 18.
+21 of 49 steps (43%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:57 2024]
+rule sort:
+    input: split_individual/chr14.bed.gz
+    output: sort_individual/chr14.bed.gz
+    jobid: 27
+    reason: Input files updated by another job: split_individual/chr14.bed.gz
+    wildcards: chr=chr14
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:33:59 2024]
+Finished job 27.
+22 of 49 steps (45%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:33:59 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr5.bed.gz
+    jobid: 10
+    reason: Code has changed since last execution
+    wildcards: chr=chr5
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:05 2024]
+Finished job 10.
+23 of 49 steps (47%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:05 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr13.bed.gz
+    jobid: 26
+    reason: Code has changed since last execution
+    wildcards: chr=chr13
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:11 2024]
+Finished job 26.
+24 of 49 steps (49%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:11 2024]
+rule sort:
+    input: split_individual/chr8.bed.gz
+    output: sort_individual/chr8.bed.gz
+    jobid: 15
+    reason: Input files updated by another job: split_individual/chr8.bed.gz
+    wildcards: chr=chr8
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:14 2024]
+Finished job 15.
+25 of 49 steps (51%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:14 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr12.bed.gz
+    jobid: 24
+    reason: Code has changed since last execution
+    wildcards: chr=chr12
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:20 2024]
+Finished job 24.
+26 of 49 steps (53%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:20 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr21.bed.gz
+    jobid: 42
+    reason: Code has changed since last execution
+    wildcards: chr=chr21
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:25 2024]
+Finished job 42.
+27 of 49 steps (55%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:25 2024]
+rule sort:
+    input: split_individual/chr17.bed.gz
+    output: sort_individual/chr17.bed.gz
+    jobid: 33
+    reason: Input files updated by another job: split_individual/chr17.bed.gz
+    wildcards: chr=chr17
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:28 2024]
+Finished job 33.
+28 of 49 steps (57%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:28 2024]
+rule sort:
+    input: split_individual/chr9.bed.gz
+    output: sort_individual/chr9.bed.gz
+    jobid: 17
+    reason: Input files updated by another job: split_individual/chr9.bed.gz
+    wildcards: chr=chr9
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:32 2024]
+Finished job 17.
+29 of 49 steps (59%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:32 2024]
+rule sort:
+    input: split_individual/chr5.bed.gz
+    output: sort_individual/chr5.bed.gz
+    jobid: 9
+    reason: Input files updated by another job: split_individual/chr5.bed.gz
+    wildcards: chr=chr5
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:36 2024]
+Finished job 9.
+30 of 49 steps (61%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:36 2024]
+rule sort:
+    input: split_individual/chr20.bed.gz
+    output: sort_individual/chr20.bed.gz
+    jobid: 39
+    reason: Input files updated by another job: split_individual/chr20.bed.gz
+    wildcards: chr=chr20
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:39 2024]
+Finished job 39.
+31 of 49 steps (63%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:40 2024]
+rule sort:
+    input: split_individual/chr13.bed.gz
+    output: sort_individual/chr13.bed.gz
+    jobid: 25
+    reason: Input files updated by another job: split_individual/chr13.bed.gz
+    wildcards: chr=chr13
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:43 2024]
+Finished job 25.
+32 of 49 steps (65%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:43 2024]
+rule sort:
+    input: split_individual/chr21.bed.gz
+    output: sort_individual/chr21.bed.gz
+    jobid: 41
+    reason: Input files updated by another job: split_individual/chr21.bed.gz
+    wildcards: chr=chr21
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:45 2024]
+Finished job 41.
+33 of 49 steps (67%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:45 2024]
+rule sort:
+    input: split_individual/chrX.bed.gz
+    output: sort_individual/chrX.bed.gz
+    jobid: 45
+    reason: Input files updated by another job: split_individual/chrX.bed.gz
+    wildcards: chr=chrX
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:50 2024]
+Finished job 45.
+34 of 49 steps (69%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:50 2024]
+rule sort:
+    input: split_individual/chr10.bed.gz
+    output: sort_individual/chr10.bed.gz
+    jobid: 19
+    reason: Input files updated by another job: split_individual/chr10.bed.gz
+    wildcards: chr=chr10
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:34:54 2024]
+Finished job 19.
+35 of 49 steps (71%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:34:55 2024]
+rule sort:
+    input: split_individual/chr6.bed.gz
+    output: sort_individual/chr6.bed.gz
+    jobid: 11
+    reason: Input files updated by another job: split_individual/chr6.bed.gz
+    wildcards: chr=chr6
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:00 2024]
+Finished job 11.
+36 of 49 steps (73%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:00 2024]
+rule sort:
+    input: split_individual/chr18.bed.gz
+    output: sort_individual/chr18.bed.gz
+    jobid: 35
+    reason: Input files updated by another job: split_individual/chr18.bed.gz
+    wildcards: chr=chr18
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:03 2024]
+Finished job 35.
+37 of 49 steps (76%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:03 2024]
+rule sort:
+    input: split_individual/chr3.bed.gz
+    output: sort_individual/chr3.bed.gz
+    jobid: 5
+    reason: Input files updated by another job: split_individual/chr3.bed.gz
+    wildcards: chr=chr3
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:09 2024]
+Finished job 5.
+38 of 49 steps (78%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:09 2024]
+rule sort:
+    input: split_individual/chr4.bed.gz
+    output: sort_individual/chr4.bed.gz
+    jobid: 7
+    reason: Input files updated by another job: split_individual/chr4.bed.gz
+    wildcards: chr=chr4
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:14 2024]
+Finished job 7.
+39 of 49 steps (80%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:14 2024]
+rule sort:
+    input: split_individual/chr11.bed.gz
+    output: sort_individual/chr11.bed.gz
+    jobid: 21
+    reason: Input files updated by another job: split_individual/chr11.bed.gz
+    wildcards: chr=chr11
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:19 2024]
+Finished job 21.
+40 of 49 steps (82%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:19 2024]
+rule sort:
+    input: split_individual/chr12.bed.gz
+    output: sort_individual/chr12.bed.gz
+    jobid: 23
+    reason: Input files updated by another job: split_individual/chr12.bed.gz
+    wildcards: chr=chr12
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:23 2024]
+Finished job 23.
+41 of 49 steps (84%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:23 2024]
+rule sort:
+    input: split_individual/chr22.bed.gz
+    output: sort_individual/chr22.bed.gz
+    jobid: 43
+    reason: Input files updated by another job: split_individual/chr22.bed.gz
+    wildcards: chr=chr22
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:25 2024]
+Finished job 43.
+42 of 49 steps (86%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:25 2024]
+rule sort:
+    input: split_individual/chr2.bed.gz
+    output: sort_individual/chr2.bed.gz
+    jobid: 3
+    reason: Input files updated by another job: split_individual/chr2.bed.gz
+    wildcards: chr=chr2
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:31 2024]
+Finished job 3.
+43 of 49 steps (88%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:31 2024]
+rule sort:
+    input: split_individual/chrY.bed.gz
+    output: sort_individual/chrY.bed.gz
+    jobid: 47
+    reason: Input files updated by another job: split_individual/chrY.bed.gz
+    wildcards: chr=chrY
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:32 2024]
+Finished job 47.
+44 of 49 steps (90%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:32 2024]
+rule sort:
+    input: split_individual/chr7.bed.gz
+    output: sort_individual/chr7.bed.gz
+    jobid: 13
+    reason: Input files updated by another job: split_individual/chr7.bed.gz
+    wildcards: chr=chr7
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:37 2024]
+Finished job 13.
+45 of 49 steps (92%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:37 2024]
+rule sort:
+    input: split_individual/chr16.bed.gz
+    output: sort_individual/chr16.bed.gz
+    jobid: 31
+    reason: Input files updated by another job: split_individual/chr16.bed.gz
+    wildcards: chr=chr16
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:40 2024]
+Finished job 31.
+46 of 49 steps (94%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:40 2024]
+rule sort:
+    input: split_individual/chr15.bed.gz
+    output: sort_individual/chr15.bed.gz
+    jobid: 29
+    reason: Input files updated by another job: split_individual/chr15.bed.gz
+    wildcards: chr=chr15
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:43 2024]
+Finished job 29.
+47 of 49 steps (96%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:43 2024]
+rule sort:
+    input: split_individual/chr19.bed.gz
+    output: sort_individual/chr19.bed.gz
+    jobid: 37
+    reason: Input files updated by another job: split_individual/chr19.bed.gz
+    wildcards: chr=chr19
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:35:45 2024]
+Finished job 37.
+48 of 49 steps (98%) done
+Select jobs to execute...
+
+[Fri Oct 11 20:35:45 2024]
+rule combine:
+    input: sort_individual/chr1.bed.gz, sort_individual/chr2.bed.gz, sort_individual/chr3.bed.gz, sort_individual/chr4.bed.gz, sort_individual/chr5.bed.gz, sort_individual/chr6.bed.gz, sort_individual/chr7.bed.gz, sort_individual/chr8.bed.gz, sort_individual/chr9.bed.gz, sort_individual/chr10.bed.gz, sort_individual/chr11.bed.gz, sort_individual/chr12.bed.gz, sort_individual/chr13.bed.gz, sort_individual/chr14.bed.gz, sort_individual/chr15.bed.gz, sort_individual/chr16.bed.gz, sort_individual/chr17.bed.gz, sort_individual/chr18.bed.gz, sort_individual/chr19.bed.gz, sort_individual/chr20.bed.gz, sort_individual/chr21.bed.gz, sort_individual/chr22.bed.gz, sort_individual/chrX.bed.gz, sort_individual/chrY.bed.gz, standard_selection.tsv
+    output: sorted_bed_file_per_sample/final_sorted.bed.gz
+    jobid: 0
+    reason: Input files updated by another job: sort_individual/chr17.bed.gz, sort_individual/chr7.bed.gz, sort_individual/chr1.bed.gz, sort_individual/chr22.bed.gz, sort_individual/chr6.bed.gz, sort_individual/chr20.bed.gz, sort_individual/chr15.bed.gz, sort_individual/chr16.bed.gz, sort_individual/chr14.bed.gz, sort_individual/chr11.bed.gz, sort_individual/chr18.bed.gz, sort_individual/chr3.bed.gz, sort_individual/chr8.bed.gz, sort_individual/chr13.bed.gz, sort_individual/chr4.bed.gz, sort_individual/chrY.bed.gz, sort_individual/chr5.bed.gz, sort_individual/chrX.bed.gz, sort_individual/chr2.bed.gz, sort_individual/chr21.bed.gz, sort_individual/chr12.bed.gz, sort_individual/chr10.bed.gz, sort_individual/chr19.bed.gz, sort_individual/chr9.bed.gz
+    resources: tmpdir=/tmp
+
+[Fri Oct 11 20:36:15 2024]
+Finished job 0.
+49 of 49 steps (100%) done
+Complete log: .snakemake/log/2024-10-11T203156.891076.snakemake.log

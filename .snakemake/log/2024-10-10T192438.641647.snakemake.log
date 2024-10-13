@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule split_and_combine_bed_files in file /home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk, line 8:
+Missing input files for rule split_and_combine_bed_files:
+    output: split/chr1.bed.gz
+    wildcards: chrom=chr1
+    affected files:
+        input.tsv

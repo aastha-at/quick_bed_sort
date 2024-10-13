@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count    min threads    max threads
+----------------  -------  -------------  -------------
+combine_in_order        1              1              1
+total                   1              1              1
+
+Select jobs to execute...
+
+[Thu Oct 10 19:42:41 2024]
+rule combine_in_order:
+    input: sorted/chr1.bed.gz, sorted/chr2.bed.gz, sorted/chr3.bed.gz, sorted/chr4.bed.gz, sorted/chr5.bed.gz, sorted/chr6.bed.gz, sorted/chr7.bed.gz, sorted/chr8.bed.gz, sorted/chr9.bed.gz, sorted/chr10.bed.gz, sorted/chr11.bed.gz, sorted/chr12.bed.gz, sorted/chr13.bed.gz, sorted/chr14.bed.gz, sorted/chr15.bed.gz, sorted/chr16.bed.gz, sorted/chr17.bed.gz, sorted/chr18.bed.gz, sorted/chr19.bed.gz, sorted/chr20.bed.gz, sorted/chr21.bed.gz, sorted/chr22.bed.gz, sorted/chrX.bed.gz, sorted/chrY.bed.gz, standard_selection.tsv
+    output: sorted_bed_file_per_sample/final_sorted.bed.gz
+    jobid: 0
+    reason: Missing output files: sorted_bed_file_per_sample/final_sorted.bed.gz
+    resources: tmpdir=/tmp
+
+[Thu Oct 10 19:43:10 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2024-10-10T194240.003902.snakemake.log

@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                                  count    min threads    max threads
+---------------------------------  -------  -------------  -------------
+take_hundred_lines_from_beginning        1              1              1
+total                                    1              1              1
+
+Select jobs to execute...
+
+[Mon Sep 30 16:24:26 2024]
+rule take_hundred_lines_from_beginning:
+    input: /home/bec51310.iitr/workplace/project/quick_bed_sort/shuf.a.bed.gz, /home/bec51310.iitr/workplace/project/quick_bed_sort/shuf.b.bed.gz
+    output: top100/for_demo.bed
+    jobid: 0
+    reason: Missing output files: top100/for_demo.bed
+    wildcards: sample=demo
+    resources: tmpdir=/tmp
+
+[Mon Sep 30 16:24:27 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2024-09-30T162425.340527.snakemake.log

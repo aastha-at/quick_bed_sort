@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule combine_in_order in file /home/bec51310.iitr/workplace/project/quick_bed_sort/test.smk, line 34:
+Missing input files for rule combine_in_order:
+    output: final_sorted.bed.gz
+    affected files:
+        input.tsv

@@ -1,0 +1,706 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count    min threads    max threads
+-------  -------  -------------  -------------
+combine        1              1              1
+sort          24              1              1
+split         24              1              1
+total         49              1              1
+
+Select jobs to execute...
+
+[Sat Oct 12 20:08:20 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr8.bed.gz
+    jobid: 16
+    reason: Missing output files: split_individual/chr8.bed.gz; Code has changed since last execution
+    wildcards: chr=chr8
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:08:25 2024]
+Finished job 16.
+1 of 49 steps (2%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:08:25 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr12.bed.gz
+    jobid: 24
+    reason: Missing output files: split_individual/chr12.bed.gz; Code has changed since last execution
+    wildcards: chr=chr12
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:08:30 2024]
+Finished job 24.
+2 of 49 steps (4%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:08:30 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chrY.bed.gz
+    jobid: 48
+    reason: Missing output files: split_individual/chrY.bed.gz; Code has changed since last execution
+    wildcards: chr=chrY
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:08:35 2024]
+Finished job 48.
+3 of 49 steps (6%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:08:35 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr4.bed.gz
+    jobid: 8
+    reason: Missing output files: split_individual/chr4.bed.gz; Code has changed since last execution
+    wildcards: chr=chr4
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:08:41 2024]
+Finished job 8.
+4 of 49 steps (8%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:08:41 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr16.bed.gz
+    jobid: 32
+    reason: Missing output files: split_individual/chr16.bed.gz
+    wildcards: chr=chr16
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:08:46 2024]
+Finished job 32.
+5 of 49 steps (10%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:08:46 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr20.bed.gz
+    jobid: 40
+    reason: Missing output files: split_individual/chr20.bed.gz; Code has changed since last execution
+    wildcards: chr=chr20
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:08:52 2024]
+Finished job 40.
+6 of 49 steps (12%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:08:52 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr7.bed.gz
+    jobid: 14
+    reason: Missing output files: split_individual/chr7.bed.gz; Code has changed since last execution
+    wildcards: chr=chr7
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:08:58 2024]
+Finished job 14.
+7 of 49 steps (14%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:08:58 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chrX.bed.gz
+    jobid: 46
+    reason: Missing output files: split_individual/chrX.bed.gz; Code has changed since last execution
+    wildcards: chr=chrX
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:03 2024]
+Finished job 46.
+8 of 49 steps (16%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:03 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr3.bed.gz
+    jobid: 6
+    reason: Missing output files: split_individual/chr3.bed.gz; Code has changed since last execution
+    wildcards: chr=chr3
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:09 2024]
+Finished job 6.
+9 of 49 steps (18%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:09 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr11.bed.gz
+    jobid: 22
+    reason: Missing output files: split_individual/chr11.bed.gz; Code has changed since last execution
+    wildcards: chr=chr11
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:14 2024]
+Finished job 22.
+10 of 49 steps (20%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:15 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr15.bed.gz
+    jobid: 30
+    reason: Missing output files: split_individual/chr15.bed.gz; Code has changed since last execution
+    wildcards: chr=chr15
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:21 2024]
+Finished job 30.
+11 of 49 steps (22%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:21 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr19.bed.gz
+    jobid: 38
+    reason: Missing output files: split_individual/chr19.bed.gz; Code has changed since last execution
+    wildcards: chr=chr19
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:26 2024]
+Finished job 38.
+12 of 49 steps (24%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:26 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr22.bed.gz
+    jobid: 44
+    reason: Missing output files: split_individual/chr22.bed.gz; Code has changed since last execution
+    wildcards: chr=chr22
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:32 2024]
+Finished job 44.
+13 of 49 steps (27%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:32 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr2.bed.gz
+    jobid: 4
+    reason: Missing output files: split_individual/chr2.bed.gz; Code has changed since last execution
+    wildcards: chr=chr2
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:38 2024]
+Finished job 4.
+14 of 49 steps (29%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:38 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr6.bed.gz
+    jobid: 12
+    reason: Missing output files: split_individual/chr6.bed.gz; Code has changed since last execution
+    wildcards: chr=chr6
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:43 2024]
+Finished job 12.
+15 of 49 steps (31%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:44 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr10.bed.gz
+    jobid: 20
+    reason: Missing output files: split_individual/chr10.bed.gz; Code has changed since last execution
+    wildcards: chr=chr10
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:50 2024]
+Finished job 20.
+16 of 49 steps (33%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:50 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr14.bed.gz
+    jobid: 28
+    reason: Missing output files: split_individual/chr14.bed.gz; Code has changed since last execution
+    wildcards: chr=chr14
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:55 2024]
+Finished job 28.
+17 of 49 steps (35%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:55 2024]
+rule sort:
+    input: split_individual/chr22.bed.gz
+    output: sort_individual/chr22.bed.gz
+    jobid: 43
+    reason: Missing output files: sort_individual/chr22.bed.gz; Input files updated by another job: split_individual/chr22.bed.gz
+    wildcards: chr=chr22
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:09:57 2024]
+Finished job 43.
+18 of 49 steps (37%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:09:57 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr18.bed.gz
+    jobid: 36
+    reason: Missing output files: split_individual/chr18.bed.gz; Code has changed since last execution
+    wildcards: chr=chr18
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:03 2024]
+Finished job 36.
+19 of 49 steps (39%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:03 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr1.bed.gz
+    jobid: 2
+    reason: Missing output files: split_individual/chr1.bed.gz; Code has changed since last execution
+    wildcards: chr=chr1
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:09 2024]
+Finished job 2.
+20 of 49 steps (41%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:09 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr21.bed.gz
+    jobid: 42
+    reason: Missing output files: split_individual/chr21.bed.gz; Code has changed since last execution
+    wildcards: chr=chr21
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:15 2024]
+Finished job 42.
+21 of 49 steps (43%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:15 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr5.bed.gz
+    jobid: 10
+    reason: Missing output files: split_individual/chr5.bed.gz; Code has changed since last execution
+    wildcards: chr=chr5
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:20 2024]
+Finished job 10.
+22 of 49 steps (45%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:20 2024]
+rule sort:
+    input: split_individual/chr18.bed.gz
+    output: sort_individual/chr18.bed.gz
+    jobid: 35
+    reason: Missing output files: sort_individual/chr18.bed.gz; Input files updated by another job: split_individual/chr18.bed.gz
+    wildcards: chr=chr18
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:24 2024]
+Finished job 35.
+23 of 49 steps (47%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:24 2024]
+rule sort:
+    input: split_individual/chr1.bed.gz
+    output: sort_individual/chr1.bed.gz
+    jobid: 1
+    reason: Missing output files: sort_individual/chr1.bed.gz; Input files updated by another job: split_individual/chr1.bed.gz
+    wildcards: chr=chr1
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:32 2024]
+Finished job 1.
+24 of 49 steps (49%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:32 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr9.bed.gz
+    jobid: 18
+    reason: Missing output files: split_individual/chr9.bed.gz; Code has changed since last execution
+    wildcards: chr=chr9
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:38 2024]
+Finished job 18.
+25 of 49 steps (51%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:38 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr13.bed.gz
+    jobid: 26
+    reason: Missing output files: split_individual/chr13.bed.gz; Code has changed since last execution
+    wildcards: chr=chr13
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:42 2024]
+Finished job 26.
+26 of 49 steps (53%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:42 2024]
+rule sort:
+    input: split_individual/chrY.bed.gz
+    output: sort_individual/chrY.bed.gz
+    jobid: 47
+    reason: Missing output files: sort_individual/chrY.bed.gz; Input files updated by another job: split_individual/chrY.bed.gz
+    wildcards: chr=chrY
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:43 2024]
+Finished job 47.
+27 of 49 steps (55%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:43 2024]
+rule split:
+    input: shuf.a.bed.gz, shuf.b.bed.gz
+    output: split_individual/chr17.bed.gz
+    jobid: 34
+    reason: Missing output files: split_individual/chr17.bed.gz; Code has changed since last execution
+    wildcards: chr=chr17
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:48 2024]
+Finished job 34.
+28 of 49 steps (57%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:48 2024]
+rule sort:
+    input: split_individual/chr21.bed.gz
+    output: sort_individual/chr21.bed.gz
+    jobid: 41
+    reason: Missing output files: sort_individual/chr21.bed.gz; Input files updated by another job: split_individual/chr21.bed.gz
+    wildcards: chr=chr21
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:50 2024]
+Finished job 41.
+29 of 49 steps (59%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:50 2024]
+rule sort:
+    input: split_individual/chr13.bed.gz
+    output: sort_individual/chr13.bed.gz
+    jobid: 25
+    reason: Missing output files: sort_individual/chr13.bed.gz; Input files updated by another job: split_individual/chr13.bed.gz
+    wildcards: chr=chr13
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:53 2024]
+Finished job 25.
+30 of 49 steps (61%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:54 2024]
+rule sort:
+    input: split_individual/chr15.bed.gz
+    output: sort_individual/chr15.bed.gz
+    jobid: 29
+    reason: Missing output files: sort_individual/chr15.bed.gz; Input files updated by another job: split_individual/chr15.bed.gz
+    wildcards: chr=chr15
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:56 2024]
+Finished job 29.
+31 of 49 steps (63%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:56 2024]
+rule sort:
+    input: split_individual/chr17.bed.gz
+    output: sort_individual/chr17.bed.gz
+    jobid: 33
+    reason: Missing output files: sort_individual/chr17.bed.gz; Input files updated by another job: split_individual/chr17.bed.gz
+    wildcards: chr=chr17
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:10:59 2024]
+Finished job 33.
+32 of 49 steps (65%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:10:59 2024]
+rule sort:
+    input: split_individual/chr5.bed.gz
+    output: sort_individual/chr5.bed.gz
+    jobid: 9
+    reason: Missing output files: sort_individual/chr5.bed.gz; Input files updated by another job: split_individual/chr5.bed.gz
+    wildcards: chr=chr5
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:04 2024]
+Finished job 9.
+33 of 49 steps (67%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:04 2024]
+rule sort:
+    input: split_individual/chr10.bed.gz
+    output: sort_individual/chr10.bed.gz
+    jobid: 19
+    reason: Missing output files: sort_individual/chr10.bed.gz; Input files updated by another job: split_individual/chr10.bed.gz
+    wildcards: chr=chr10
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:08 2024]
+Finished job 19.
+34 of 49 steps (69%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:08 2024]
+rule sort:
+    input: split_individual/chr11.bed.gz
+    output: sort_individual/chr11.bed.gz
+    jobid: 21
+    reason: Missing output files: sort_individual/chr11.bed.gz; Input files updated by another job: split_individual/chr11.bed.gz
+    wildcards: chr=chr11
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:12 2024]
+Finished job 21.
+35 of 49 steps (71%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:12 2024]
+rule sort:
+    input: split_individual/chr8.bed.gz
+    output: sort_individual/chr8.bed.gz
+    jobid: 15
+    reason: Missing output files: sort_individual/chr8.bed.gz; Input files updated by another job: split_individual/chr8.bed.gz
+    wildcards: chr=chr8
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:16 2024]
+Finished job 15.
+36 of 49 steps (73%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:16 2024]
+rule sort:
+    input: split_individual/chr7.bed.gz
+    output: sort_individual/chr7.bed.gz
+    jobid: 13
+    reason: Missing output files: sort_individual/chr7.bed.gz; Input files updated by another job: split_individual/chr7.bed.gz
+    wildcards: chr=chr7
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:21 2024]
+Finished job 13.
+37 of 49 steps (76%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:21 2024]
+rule sort:
+    input: split_individual/chr2.bed.gz
+    output: sort_individual/chr2.bed.gz
+    jobid: 3
+    reason: Missing output files: sort_individual/chr2.bed.gz; Input files updated by another job: split_individual/chr2.bed.gz
+    wildcards: chr=chr2
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:28 2024]
+Finished job 3.
+38 of 49 steps (78%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:28 2024]
+rule sort:
+    input: split_individual/chr3.bed.gz
+    output: sort_individual/chr3.bed.gz
+    jobid: 5
+    reason: Missing output files: sort_individual/chr3.bed.gz; Input files updated by another job: split_individual/chr3.bed.gz
+    wildcards: chr=chr3
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:34 2024]
+Finished job 5.
+39 of 49 steps (80%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:34 2024]
+rule sort:
+    input: split_individual/chr14.bed.gz
+    output: sort_individual/chr14.bed.gz
+    jobid: 27
+    reason: Missing output files: sort_individual/chr14.bed.gz; Input files updated by another job: split_individual/chr14.bed.gz
+    wildcards: chr=chr14
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:37 2024]
+Finished job 27.
+40 of 49 steps (82%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:37 2024]
+rule sort:
+    input: split_individual/chr6.bed.gz
+    output: sort_individual/chr6.bed.gz
+    jobid: 11
+    reason: Missing output files: sort_individual/chr6.bed.gz; Input files updated by another job: split_individual/chr6.bed.gz
+    wildcards: chr=chr6
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:41 2024]
+Finished job 11.
+41 of 49 steps (84%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:41 2024]
+rule sort:
+    input: split_individual/chrX.bed.gz
+    output: sort_individual/chrX.bed.gz
+    jobid: 45
+    reason: Missing output files: sort_individual/chrX.bed.gz; Input files updated by another job: split_individual/chrX.bed.gz
+    wildcards: chr=chrX
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:46 2024]
+Finished job 45.
+42 of 49 steps (86%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:46 2024]
+rule sort:
+    input: split_individual/chr12.bed.gz
+    output: sort_individual/chr12.bed.gz
+    jobid: 23
+    reason: Missing output files: sort_individual/chr12.bed.gz; Input files updated by another job: split_individual/chr12.bed.gz
+    wildcards: chr=chr12
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:50 2024]
+Finished job 23.
+43 of 49 steps (88%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:50 2024]
+rule sort:
+    input: split_individual/chr4.bed.gz
+    output: sort_individual/chr4.bed.gz
+    jobid: 7
+    reason: Missing output files: sort_individual/chr4.bed.gz; Input files updated by another job: split_individual/chr4.bed.gz
+    wildcards: chr=chr4
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:11:57 2024]
+Finished job 7.
+44 of 49 steps (90%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:11:57 2024]
+rule sort:
+    input: split_individual/chr16.bed.gz
+    output: sort_individual/chr16.bed.gz
+    jobid: 31
+    reason: Missing output files: sort_individual/chr16.bed.gz; Input files updated by another job: split_individual/chr16.bed.gz; Code has changed since last execution
+    wildcards: chr=chr16
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:12:00 2024]
+Finished job 31.
+45 of 49 steps (92%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:12:00 2024]
+rule sort:
+    input: split_individual/chr20.bed.gz
+    output: sort_individual/chr20.bed.gz
+    jobid: 39
+    reason: Missing output files: sort_individual/chr20.bed.gz; Input files updated by another job: split_individual/chr20.bed.gz
+    wildcards: chr=chr20
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:12:03 2024]
+Finished job 39.
+46 of 49 steps (94%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:12:03 2024]
+rule sort:
+    input: split_individual/chr19.bed.gz
+    output: sort_individual/chr19.bed.gz
+    jobid: 37
+    reason: Missing output files: sort_individual/chr19.bed.gz; Input files updated by another job: split_individual/chr19.bed.gz
+    wildcards: chr=chr19
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:12:05 2024]
+Finished job 37.
+47 of 49 steps (96%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:12:05 2024]
+rule sort:
+    input: split_individual/chr9.bed.gz
+    output: sort_individual/chr9.bed.gz
+    jobid: 17
+    reason: Missing output files: sort_individual/chr9.bed.gz; Input files updated by another job: split_individual/chr9.bed.gz
+    wildcards: chr=chr9
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:12:09 2024]
+Finished job 17.
+48 of 49 steps (98%) done
+Select jobs to execute...
+
+[Sat Oct 12 20:12:09 2024]
+rule combine:
+    input: sort_individual/chr1.bed.gz, sort_individual/chr2.bed.gz, sort_individual/chr3.bed.gz, sort_individual/chr4.bed.gz, sort_individual/chr5.bed.gz, sort_individual/chr6.bed.gz, sort_individual/chr7.bed.gz, sort_individual/chr8.bed.gz, sort_individual/chr9.bed.gz, sort_individual/chr10.bed.gz, sort_individual/chr11.bed.gz, sort_individual/chr12.bed.gz, sort_individual/chr13.bed.gz, sort_individual/chr14.bed.gz, sort_individual/chr15.bed.gz, sort_individual/chr16.bed.gz, sort_individual/chr17.bed.gz, sort_individual/chr18.bed.gz, sort_individual/chr19.bed.gz, sort_individual/chr20.bed.gz, sort_individual/chr21.bed.gz, sort_individual/chr22.bed.gz, sort_individual/chrX.bed.gz, sort_individual/chrY.bed.gz, standard_selection.tsv
+    output: sorted_bed_file_per_sample/final_sorted.bed.gz
+    jobid: 0
+    reason: Input files updated by another job: sort_individual/chr21.bed.gz, sort_individual/chr3.bed.gz, sort_individual/chr11.bed.gz, sort_individual/chr2.bed.gz, sort_individual/chr14.bed.gz, sort_individual/chr12.bed.gz, sort_individual/chr13.bed.gz, sort_individual/chr18.bed.gz, sort_individual/chrX.bed.gz, sort_individual/chr6.bed.gz, sort_individual/chr20.bed.gz, sort_individual/chr1.bed.gz, sort_individual/chr5.bed.gz, sort_individual/chr9.bed.gz, sort_individual/chr10.bed.gz, sort_individual/chr15.bed.gz, sort_individual/chr19.bed.gz, sort_individual/chrY.bed.gz, sort_individual/chr8.bed.gz, sort_individual/chr16.bed.gz, sort_individual/chr22.bed.gz, sort_individual/chr7.bed.gz, sort_individual/chr17.bed.gz, sort_individual/chr4.bed.gz
+    resources: tmpdir=/tmp
+
+[Sat Oct 12 20:12:09 2024]
+Error in rule combine:
+    jobid: 0
+    input: sort_individual/chr1.bed.gz, sort_individual/chr2.bed.gz, sort_individual/chr3.bed.gz, sort_individual/chr4.bed.gz, sort_individual/chr5.bed.gz, sort_individual/chr6.bed.gz, sort_individual/chr7.bed.gz, sort_individual/chr8.bed.gz, sort_individual/chr9.bed.gz, sort_individual/chr10.bed.gz, sort_individual/chr11.bed.gz, sort_individual/chr12.bed.gz, sort_individual/chr13.bed.gz, sort_individual/chr14.bed.gz, sort_individual/chr15.bed.gz, sort_individual/chr16.bed.gz, sort_individual/chr17.bed.gz, sort_individual/chr18.bed.gz, sort_individual/chr19.bed.gz, sort_individual/chr20.bed.gz, sort_individual/chr21.bed.gz, sort_individual/chr22.bed.gz, sort_individual/chrX.bed.gz, sort_individual/chrY.bed.gz, standard_selection.tsv
+    output: sorted_bed_file_per_sample/final_sorted.bed.gz
+    shell:
+        while read chr; do zcat sort_individual/${chr}.bed.gz done < standard_selection.tsv | gzip > sorted_bed_file_per_sample/final_sorted.bed.gz
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-10-12T200819.550038.snakemake.log

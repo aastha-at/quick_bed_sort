@@ -1,0 +1,3 @@
+WildcardError in file /home/bec51310.iitr/workplace/project/quick_bed_sort/quick_bed_sort.smk, line 30:
+No values given for wildcard 'chr'.
+  File "/home/bec51310.iitr/workplace/project/quick_bed_sort/quick_bed_sort.smk", line 30, in <module>
